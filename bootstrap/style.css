@@ -953,6 +953,9 @@ h2 span {
 .sign-in-btn:hover {
     background-image: linear-gradient(#ffad29, #e0a204);
 }
+.stars i{
+    color: #E37B02;
+}
 
 
 
@@ -1992,8 +1995,18 @@ h2 span {
 
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+    .apply-btn {
+        font-size: 14px !important;
+        background: #fff;
+        padding: 2px 15px;
+        cursor: pointer;
+        text-align: center;
+        border: 1px solid #E37B02 !important;
+        border-radius: 49px;
+        color: #E37B02;
+    }
     .carousel-container-img {
-        display: flex;
+        display: flex !important;
         align-items: center;
         gap: 15px;
         background: white;
@@ -2001,14 +2014,13 @@ h2 span {
     }
     
     .thumbnails-img {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         gap: 10px;
     }
     .header-div{
-        display: flex
-        ;
-            align-items: center;
+        display: flex;
+     align-items: center;
     }
     .trip-details {
         display: flex;
@@ -2027,10 +2039,10 @@ h2 span {
         font-size: 12px;
     }
     p {
-        font-size: 14px;
+        font-size: 14px !important;
     }
     li{
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .destination-button {
         font-size: 14px;
@@ -2052,7 +2064,7 @@ h2 span {
         padding: 3px 0px;
     }
     .subtext {
-        font-size: 12px;
+        font-size: 12px !important;
         color: gray;
     }
     .badge-normal {
@@ -2098,7 +2110,7 @@ h2 span {
     .btn {
         background-color: #E37B02;
         color: white;
-        padding: 4px;
+        padding: 4px !important;
         border: none;
         cursor: pointer;
         text-align: center;
