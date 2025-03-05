@@ -311,6 +311,10 @@ body {
     background: #cc7700;
     color: white;
 }
+.btn-load-more:hover {
+    background: #e99a07;
+
+}
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -505,7 +509,8 @@ h2 span {
 }
 
 .view-more button:hover {
-    background: #d97706;
+    background: #e99a07;
+
 }
 
 .bg-gray {
@@ -635,7 +640,7 @@ h2 span {
 }
 
 .btn:hover {
-    background-color: #E37B02;
+    background: #e99a07;
 }
 
 
@@ -657,7 +662,7 @@ h2 span {
 }
 
 .scroll-top:hover {
-    background-color: #E37B02;
+    background: #e99a07;
 }
 
 /* ---------------------- */
@@ -920,15 +925,10 @@ h2 span {
 }
 
 
-.check-button {
-    background: #E37B02;
-    color: white;
-    font-weight: bold;
-    border: none;
-    padding: 6px 20px;
-    border-radius: 5px;
-    margin-top: 10px;
-    width: 100%;
+
+.check-button:hover{
+    background: #e99a07;
+
 }
 
 .tour-button:hover {
@@ -973,6 +973,57 @@ h2 span {
 }
 
 @media (max-width: 767px) {
+   
+    .check-button {
+        background: #E37B02;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 6px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .bottom-img-gallery{
+        height: 185px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .top-img-gallery{
+        height: 185px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .terms-div{
+        margin-top: 30px;
+    }
+    .terms-div h2{
+        margin-bottom: 20px;
+        font-size: 25px;
+        color: #001A26;
+        font-weight: 600;
+        font-family: 'Poppins';
+    
+    }
+    .terms-div label{
+        color: #001A26;
+        margin-bottom: 3px;
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 18px;
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+    .terms-div p{
+        text-align: justify;
+
+        margin-top: 20px;
+        color: #425466;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
     .left-section {
         height: 100vh;
         flex: 1;
@@ -1041,6 +1092,14 @@ h2 span {
         border-radius: 5px;
         margin-top: 10px;
         width: 220px;
+    }
+    .btn-load-more {
+        margin-top: 20px;
+        background-color:#E37B02;
+        color: white;
+        border: none;
+        padding: 6px 20px;
+        border-radius: 5px;
     }
     .popular-badge {
         font-weight: 600;
@@ -1570,6 +1629,55 @@ h2 span {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .check-button {
+        font-size: 14px;
+        background: #E37B02;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 6px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .bottom-img-gallery{
+        height: 170px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .top-img-gallery{
+        height: 310px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .terms-div{
+        margin-top: 30px;
+    }
+    .terms-div h2{
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: #001A26;
+        font-weight: 600;
+        font-family: 'Poppins';
+    
+    }
+    .terms-div label{
+        color: #001A26;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+    .terms-div p{
+        margin-top: 8px;
+        color: #425466;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
     .left-section {
         height: 100vh;
         flex: 1;
@@ -1614,11 +1722,12 @@ h2 span {
             align-items: center;
     }
     .trip-details {
+        font-size: 12px;
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 13px;
         background: white;
-        padding: 15px 20px;
+        padding: 13px 10px;
     }
     .stars {
         font-size: 20px;
@@ -1634,6 +1743,14 @@ h2 span {
         border-radius: 5px;
         margin-top: 10px;
         width: 220px;
+    }
+    .btn-load-more {
+        margin-top: 20px;
+        background-color: #E37B02;
+        color: white;
+        border: none;
+        padding: 6px 20px;
+        border-radius: 5px;
     }
     .popular-badge {
         font-weight: 600;
@@ -1727,6 +1844,34 @@ h2 span {
         font-weight: 600;
         color: #001A26;
     }
+    .bottom-card button{
+        background: white;
+        color: #001A26;
+        border-radius: 6px;
+        border: 1px solid #425466;
+        padding: 7px 16px;
+    }
+    .bottom-card{
+        min-height: 215px;
+        padding: 33px 22px;
+        border-radius: 16px;
+        border: 1px solid #E1E1E1;
+    }
+    .bottom-card p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #425466;
+    }
+    .bottom-card button{
+        background: white;
+        color: #001A26;
+        border-radius: 6px;
+        border: 1px solid #425466;
+        padding: 7px 16px;
+    }
+    .bottom-section{
+        margin-bottom:50px;
+    }
     .grid-text{
         font-size: 20px;
         font-weight: 600;
@@ -1736,24 +1881,25 @@ h2 span {
     .booking-panel {
         border: 1px solid #E1E1E1;
         background: #F4F4F4;
-        padding: 30px;
+        padding: 10px;
         border-radius: 16px;
     }
     .booking-panel p {
-        font-size: 24px;
+        font-size: 20px;
     }
     .booking-panel p span{
         font-weight: 600;
         color: #E37B02;
     }
     .booking-panel label{
-        margin: 10px 0 10px 0;
+        margin-top: 5px;
         font-size: 14px;
         color: #425466;
         
     }
     .booking-panel  div{
-        font-size: 20px;
+        margin-top: 5px;
+        font-size: 16px;
         font-weight: 500;
     
     }
@@ -1761,21 +1907,39 @@ h2 span {
         color: #FFFFFF;
         position: absolute;
         top: 0%;
-        left: 25%;
+        left: 9%;
         padding: 10px 15px;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: 400;
+    }
+    .carousel-img-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgb(255 254 254 / 50%);
+        color: #a99c9c;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 50%;
+        width: 30px !important;
+        height: 30px !important;
+        display: flex
+    ;
+        align-items: center;
+        justify-content: center;
     }
     .carousel-div {
         position: relative;
         width: 760px;
-        height: 479px;
+        height: 303px;
         overflow: hidden;
         border-radius: 10px;
     }
     .thumbnail-img {
-        width: 126px;
-        height: 112px;
+        width: 113px;
+        height: 68px;
         border-radius: 6px;
         cursor: pointer;
         transition: 0.3s;
@@ -2102,6 +2266,67 @@ h2 span {
 
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+    .d-mid-flex{
+        display: flex;
+    }
+    .check-button {
+        font-size: 14px;
+        background: #E37B02;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 4px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .btn-load-more {
+        font-size: 14px;
+        margin-top: 20px;
+        background-color: #E37B02;
+        color: white;
+        border: none;
+        padding: 4px 25px;
+        border-radius: 5px;
+    }
+    .bottom-img-gallery{
+        height: 195px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .top-img-gallery{
+        height: 375px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .terms-div{
+        margin-top: 30px;
+    }
+    .terms-div h2{
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: #001A26;
+        font-weight: 600;
+        font-family: 'Poppins';
+    
+    }
+    .terms-div label{
+        color: #001A26;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 18px;
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+    .terms-div p{
+        margin-top: 10px;
+        color: #425466;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
     .travel-card .location-grid {
         font-size: 14px;
         display: grid;
@@ -2200,7 +2425,7 @@ h2 span {
         align-items: center;
         gap: 15px;
         background: white;
-        padding: 15px 20px;
+        padding: 0px 20px;
     }
     .header-tag {
         margin-left: 10px;
@@ -2466,8 +2691,8 @@ h2 span {
         border-radius: 10px;
     }
     .thumbnail-img {
-        width: 90px;
-        height: 98px;
+        /* width: 90px; */
+        height: 90px;
         border-radius: 6px;
         cursor: pointer;
         transition: 0.3s;
@@ -2826,6 +3051,63 @@ h2 span {
 }
 
 @media (min-width: 1441px) and (max-width: 1920px) {
+    .d-mid-flex{
+        display: flex;
+    }
+    .check-button {
+        background: #E37B02;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 6px 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .bottom-img-gallery{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .top-img-gallery{
+        height: 498px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .terms-div{
+        margin-top: 50px;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+    
+    .terms-div h2{
+        margin-bottom: 30px;
+        font-size: 40px;
+        color: #001A26;
+        font-weight: 600;
+        font-family: 'Poppins';
+    
+    }
+    .terms-div label{
+        color: #001A26;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+    .terms-div p{
+        margin-top: 20px;
+        color: #425466;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
     .left-section {
         height: 100vh;
         flex: 1;
@@ -2888,6 +3170,14 @@ h2 span {
         border-radius: 5px;
         margin-top: 10px;
         width: 220px;
+    }
+    .btn-load-more {
+        margin-top: 15px;
+        background-color: #E37B02;
+        color: white;
+        border: none;
+        padding: 8px 25px;
+        border-radius: 5px;
     }
     .popular-badge {
         font-weight: 600;
@@ -3346,6 +3636,65 @@ h2 span {
 }
 
 @media (min-width: 1921px) {
+    .d-mid-flex{
+        display: flex;
+    }
+    .check-button {
+        background: #E37B02;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 6px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .btn-load-more {
+        margin-top: 20px;
+        background-color: #E37B02;
+        color: white;
+        border: none;
+        padding: 8px 25px;
+        border-radius: 5px;
+    }
+    .bottom-img-gallery{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .top-img-gallery{
+        height: 498px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .terms-div{
+        margin-top: 50px;
+    }
+    .terms-div h2{
+        margin-bottom: 30px;
+        font-size: 40px;
+        color: #001A26;
+        font-weight: 600;
+        font-family: 'Poppins';
+    
+    }
+    .terms-div label{
+        color: #001A26;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+    .terms-div p{
+        margin-top: 20px;
+        color: #425466;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
     .left-section {
         height: 100vh;
         flex: 1;
@@ -4741,3 +5090,13 @@ ul li {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+/* -------------------- */
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
